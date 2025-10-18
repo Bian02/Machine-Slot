@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: salmon;
+}
+
+main {
+    display: flex;
+}
+
+#information {
+    border: solid 1px black;
+    font-size: 15px;
+    height: 300px;
+    width: 250px;
+    background-color: aliceblue;
+}
+
+#box-jackpot {
+    border: solid 1px black;
+    margin: 0 0 0 250px;
+    padding: 40px 20px 0 20px;
+    height: 250px;
+    background-color: aqua;
+}
+
+#jackpot {
+    background-color: cadetblue;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px black;
+    margin: auto;
+}
+
+.square {
+    background-color: aliceblue;
+    border: solid 1px black;
+    margin: auto;
+    padding: 25px 0 0 0;
+    text-align: center;
+    height: 80px;
+    width: 40px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+#spin-btn {
+    margin: 0 0 0 78px;
+}
+
+#zeroMoney {
+    background-color: white;
+    margin: 200px auto;
+    font-size: 80px;
+    border: solid 1px black;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+}
